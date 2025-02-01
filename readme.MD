@@ -41,6 +41,10 @@ This project compares the performance of different PHP runtimes and web servers 
 
 ## Performance Results
 
+![Average response time results](result-compare/Average_response_time.png)
+
+![Request per second results](result-compare/Request_per_second.png)
+
 | Runtime | 10 Virtual Users |  | 100 Virtual Users |  | 1000 Virtual Users |  |
 |---------|------------------|--|------------------|--|-------------------|--|
 |         | Avg Resp (ms) | Req/Sec | Avg Resp (ms) | Req/Sec | Avg Resp (ms) | Req/Sec |
