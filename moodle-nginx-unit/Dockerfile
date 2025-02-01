@@ -1,5 +1,5 @@
 # Gunakan Nginx Unit dengan PHP 8.2 sebagai base image
-FROM shiryaevser/nginx-unit-php:8.2-unit1.31.0
+FROM unit:php8.2
 
 # Install dependencies untuk Moodle
 RUN apt-get update && apt-get install -y \

@@ -41,6 +41,7 @@ services:
       - moodle_dir:/var/www/moodle
       - moodle_data:/var/www/moodledata
       - ./config_moodle/config.php:/var/www/moodle/config.php
+      - ./config/unit-config.json:/docker-entrypoint.d/config.json
     depends_on:
       db:
         condition: service_healthy

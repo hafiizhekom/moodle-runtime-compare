@@ -16,9 +16,6 @@
             "type": "php",
             "root": "/var/www/moodle",
             "index": "index.php",
-            "processes": {
-                "max": 5
-            },
             "user": "www-data",
             "group": "www-data",
             "options": {

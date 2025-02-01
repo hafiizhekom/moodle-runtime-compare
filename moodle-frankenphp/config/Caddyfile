@@ -3,7 +3,7 @@
 	frankenphp
 }
 
-localhost:80 {
+*:80 {
     root * /app/moodle
 	php_server
     file_server

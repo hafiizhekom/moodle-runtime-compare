@@ -44,7 +44,7 @@ services:
       - moodle_dir:/app/moodle
       - moodle_data:/app/moodledata
       - ./config/Caddyfile:/etc/caddy/Caddyfile
-      # - ./config_moodle/config.php:/app/moodle/config.php
+      - ./config_moodle/config.php:/app/moodle/config.php
     depends_on:
       db:
         condition: service_healthy
@@ -74,9 +74,9 @@ services:
       - ./k6-scripts:/scripts  # Mount folder lokal yang berisi skrip k6
       - ./k6-reports:/reports
     # entrypoint: ["k6", "run", "--insecure-skip-tls-verify", "/scripts/test.js"]
-    command: run /scripts/test10.js  # Jalankan skrip k6
+    # command: run /scripts/test10.js  # Jalankan skrip k6
     # command: run /scripts/test100.js  # Jalankan skrip k6
-    # command: run /scripts/test1000.js  # Jalankan skrip k6
+    command: run /scripts/test1000.js  # Jalankan skrip k6
     depends_on:
       moodle:
         condition: service_healthy

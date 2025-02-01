@@ -1,16 +1,16 @@
-     data_received[2m..................:[0m [36m57 MB[0m  [36;2m1.9 MB/s[0m
-     data_sent[2m......................:[0m [36m47 MB[0m  [36;2m1.6 MB/s[0m
-     http_req_blocked[2m...............:[0m avg=[36m3.54µs[0m   min=[36m1.2µs[0m   med=[36m2.9µs[0m   max=[36m5.26ms[0m  p(90)=[36m4µs[0m     p(95)=[36m4.8µs[0m  
-     http_req_connecting[2m............:[0m avg=[36m5ns[0m      min=[36m0s[0m      med=[36m0s[0m      max=[36m2.15ms[0m  p(90)=[36m0s[0m      p(95)=[36m0s[0m     
-     http_req_duration[2m..............:[0m avg=[36m412.57µs[0m min=[36m57.7µs[0m  med=[36m333.6µs[0m max=[36m18.71ms[0m p(90)=[36m759.3µs[0m p(95)=[36m915.9µs[0m
-       { expected_response:true }[2m...:[0m avg=[36m412.57µs[0m min=[36m57.7µs[0m  med=[36m333.6µs[0m max=[36m18.71ms[0m p(90)=[36m759.3µs[0m p(95)=[36m915.9µs[0m
-     http_req_failed[2m................:[0m [36m0.00%[0m  [36;2m✓ 0[0m            [36;2m✗ 631220[0m
-     http_req_receiving[2m.............:[0m avg=[36m24.91µs[0m  min=[36m6.3µs[0m   med=[36m17.7µs[0m  max=[36m10.69ms[0m p(90)=[36m28.4µs[0m  p(95)=[36m44µs[0m   
-     http_req_sending[2m...............:[0m avg=[36m9.58µs[0m   min=[36m3.2µs[0m   med=[36m7.6µs[0m   max=[36m10.58ms[0m p(90)=[36m10.3µs[0m  p(95)=[36m12.3µs[0m 
-     http_req_tls_handshaking[2m.......:[0m avg=[36m0s[0m       min=[36m0s[0m      med=[36m0s[0m      max=[36m0s[0m      p(90)=[36m0s[0m      p(95)=[36m0s[0m     
-     http_req_waiting[2m...............:[0m avg=[36m378.07µs[0m min=[36m40.09µs[0m med=[36m300.8µs[0m max=[36m18.67ms[0m p(90)=[36m716.3µs[0m p(95)=[36m865.1µs[0m
-     http_reqs[2m......................:[0m [36m631220[0m [36;2m21040.173415/s[0m
-     iteration_duration[2m.............:[0m avg=[36m463.35µs[0m min=[36m85.6µs[0m  med=[36m382.4µs[0m max=[36m18.76ms[0m p(90)=[36m817.1µs[0m p(95)=[36m983.3µs[0m
-     iterations[2m.....................:[0m [36m631220[0m [36;2m21040.173415/s[0m
-     vus[2m............................:[0m [36m10[0m     [36;2mmin=10[0m         [36;2mmax=10[0m  
-     vus_max[2m........................:[0m [36m10[0m     [36;2mmin=10[0m         [36;2mmax=10[0m  
+     data_received[2m..................:[0m [36m43 MB[0m  [36;2m1.4 MB/s[0m
+     data_sent[2m......................:[0m [36m121 kB[0m [36;2m4.0 kB/s[0m
+     http_req_blocked[2m...............:[0m avg=[36m12.04µs[0m  min=[36m3µs[0m     med=[36m7.1µs[0m    max=[36m829.8µs[0m  p(90)=[36m9.7µs[0m    p(95)=[36m11.8µs[0m  
+     http_req_connecting[2m............:[0m avg=[36m1.32µs[0m   min=[36m0s[0m      med=[36m0s[0m       max=[36m637.29µs[0m p(90)=[36m0s[0m       p(95)=[36m0s[0m      
+     http_req_duration[2m..............:[0m avg=[36m186.38ms[0m min=[36m98.84ms[0m med=[36m178.7ms[0m  max=[36m410.26ms[0m p(90)=[36m249.66ms[0m p(95)=[36m280.78ms[0m
+       { expected_response:true }[2m...:[0m avg=[36m186.38ms[0m min=[36m98.84ms[0m med=[36m178.7ms[0m  max=[36m410.26ms[0m p(90)=[36m249.66ms[0m p(95)=[36m280.78ms[0m
+     http_req_failed[2m................:[0m [36m0.00%[0m  [36;2m✓ 0[0m        [36;2m✗ 1613[0m
+     http_req_receiving[2m.............:[0m avg=[36m61.53ms[0m  min=[36m23.78ms[0m med=[36m56.87ms[0m  max=[36m194.46ms[0m p(90)=[36m90.86ms[0m  p(95)=[36m106.73ms[0m
+     http_req_sending[2m...............:[0m avg=[36m55.3µs[0m   min=[36m8.4µs[0m   med=[36m19.4µs[0m   max=[36m8.88ms[0m   p(90)=[36m54.65µs[0m  p(95)=[36m73.81µs[0m 
+     http_req_tls_handshaking[2m.......:[0m avg=[36m0s[0m       min=[36m0s[0m      med=[36m0s[0m       max=[36m0s[0m       p(90)=[36m0s[0m       p(95)=[36m0s[0m      
+     http_req_waiting[2m...............:[0m avg=[36m124.79ms[0m min=[36m67.76ms[0m med=[36m120.08ms[0m max=[36m307.92ms[0m p(90)=[36m166.15ms[0m p(95)=[36m187.91ms[0m
+     http_reqs[2m......................:[0m [36m1613[0m   [36;2m53.39668/s[0m
+     iteration_duration[2m.............:[0m avg=[36m186.63ms[0m min=[36m99.03ms[0m med=[36m179.08ms[0m max=[36m411.6ms[0m  p(90)=[36m250.24ms[0m p(95)=[36m281ms[0m   
+     iterations[2m.....................:[0m [36m1613[0m   [36;2m53.39668/s[0m
+     vus[2m............................:[0m [36m10[0m     [36;2mmin=10[0m     [36;2mmax=10[0m
+     vus_max[2m........................:[0m [36m10[0m     [36;2mmin=10[0m     [36;2mmax=10[0m
