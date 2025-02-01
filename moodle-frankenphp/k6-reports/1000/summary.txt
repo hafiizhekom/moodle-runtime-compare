@@ -1,0 +1,16 @@
+     data_received[2m..................:[0m [36m78 MB[0m  [36;2m2.6 MB/s[0m
+     data_sent[2m......................:[0m [36m65 MB[0m  [36;2m2.2 MB/s[0m
+     http_req_blocked[2m...............:[0m avg=[36m30.2µs[0m  min=[36m1.2µs[0m   med=[36m3.2µs[0m   max=[36m392.45ms[0m p(90)=[36m4.59µs[0m  p(95)=[36m5.5µs[0m  
+     http_req_connecting[2m............:[0m avg=[36m9.04µs[0m  min=[36m0s[0m      med=[36m0s[0m      max=[36m73.85ms[0m  p(90)=[36m0s[0m      p(95)=[36m0s[0m     
+     http_req_duration[2m..............:[0m avg=[36m27.83ms[0m min=[36m75.8µs[0m  med=[36m19.97ms[0m max=[36m357.45ms[0m p(90)=[36m61.15ms[0m p(95)=[36m78.04ms[0m
+       { expected_response:true }[2m...:[0m avg=[36m27.83ms[0m min=[36m75.8µs[0m  med=[36m19.97ms[0m max=[36m357.45ms[0m p(90)=[36m61.15ms[0m p(95)=[36m78.04ms[0m
+     http_req_failed[2m................:[0m [36m0.00%[0m  [36;2m✓ 0[0m            [36;2m✗ 865947[0m
+     http_req_receiving[2m.............:[0m avg=[36m81.28µs[0m min=[36m5.9µs[0m   med=[36m17.89µs[0m max=[36m156.38ms[0m p(90)=[36m30.1µs[0m  p(95)=[36m76.3µs[0m 
+     http_req_sending[2m...............:[0m avg=[36m94.78µs[0m min=[36m3.5µs[0m   med=[36m8.5µs[0m   max=[36m328.06ms[0m p(90)=[36m14.3µs[0m  p(95)=[36m31.5µs[0m 
+     http_req_tls_handshaking[2m.......:[0m avg=[36m0s[0m      min=[36m0s[0m      med=[36m0s[0m      max=[36m0s[0m       p(90)=[36m0s[0m      p(95)=[36m0s[0m     
+     http_req_waiting[2m...............:[0m avg=[36m27.66ms[0m min=[36m58µs[0m    med=[36m19.85ms[0m max=[36m304.58ms[0m p(90)=[36m60.91ms[0m p(95)=[36m77.63ms[0m
+     http_reqs[2m......................:[0m [36m865947[0m [36;2m28837.090855/s[0m
+     iteration_duration[2m.............:[0m avg=[36m32.12ms[0m min=[36m123.8µs[0m med=[36m23.99ms[0m max=[36m448.8ms[0m  p(90)=[36m68.02ms[0m p(95)=[36m86.61ms[0m
+     iterations[2m.....................:[0m [36m865947[0m [36;2m28837.090855/s[0m
+     vus[2m............................:[0m [36m1000[0m   [36;2mmin=1000[0m       [36;2mmax=1000[0m
+     vus_max[2m........................:[0m [36m1000[0m   [36;2mmin=1000[0m       [36;2mmax=1000[0m

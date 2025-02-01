@@ -1,0 +1,29 @@
+{
+    "listeners": {
+        "*:80": {
+            "pass": "routes"
+        }
+    },
+    "routes": [
+        {
+            "action": {
+                "pass": "applications/moodle"
+            }
+        }
+    ],
+    "applications": {
+        "moodle": {
+            "type": "php",
+            "root": "/var/www/moodle",
+            "index": "index.php",
+            "processes": {
+                "max": 5
+            },
+            "user": "www-data",
+            "group": "www-data",
+            "options": {
+                "file": "/etc/unit/php.ini"
+            }
+        }
+    }
+}
