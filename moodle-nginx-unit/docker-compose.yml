@@ -71,9 +71,9 @@ services:
       - ./k6-reports:/reports # Mount folder lokal yang berisi laporan k6
       - ./k6-scripts:/scripts  # Mount folder lokal yang berisi skrip k6
     # entrypoint: ["k6", "run", "--insecure-skip-tls-verify", "/scripts/test.js"]
-    # command: run /scripts/test10.js  # Jalankan skrip k6
+    command: run /scripts/test10.js  # Jalankan skrip k6
     # command: run /scripts/test100.js  # Jalankan skrip k6
-    command: run /scripts/test1000.js  # Jalankan skrip k6
+    # command: run /scripts/test1000.js  # Jalankan skrip k6
     depends_on:
       moodle:
         condition: service_healthy

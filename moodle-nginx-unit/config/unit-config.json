@@ -16,6 +16,11 @@
             "type": "php",
             "root": "/var/www/moodle",
             "index": "index.php",
+            "processes": {
+                "max": 8,
+                "spare": 2,
+                "idle_timeout": 60
+            },
             "user": "www-data",
             "group": "www-data",
             "options": {
